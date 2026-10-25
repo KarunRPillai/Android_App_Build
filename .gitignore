@@ -41,3 +41,39 @@ example
 # generated native folders
 /ios
 /android
+app/index.tsx
+# ---- Secrets and private files ----
+# Environment files (API keys, model tokens, passwords)
+.env
+.env.*
+!.env.example
+
+# Expo and EAS local secrets
+.easignore
+google-services.json
+GoogleService-Info.plist
+
+# Your private screen code
+app/index.tsx
+
+# ---- Generated clutter (usually already ignored) ----
+node_modules/
+.expo/
+dist/
+web-build/
+*.log
+npm-debug.*
+yarn-error.*
+
+# Native build output
+/android
+/ios
+*.apk
+*.aab
+*.keystore
+*.jks
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
